@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  .type_serach {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 95%;
+      height: 35px;
+      border-radius: 20px;
+      background: #eee;
+      display: flex;
+      align-items: center;
+      .serach {
+        margin: 0 10px;
+      }
+      input {
+        border: 0;
+        background: #eee;
+      }
+      input::placeholder {
+        color: rgb(187, 187, 187);
+        font-size: 13px;
+      }
+    }
+  }
+  .Tmain {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    flex: 1;
+    border-top: 1px solid #eee;
+    display: flex;
+    .shop_con_nav {
+      width: 80px;
+      flex-shrink: 0;
+      height: 100%;
+      background: #eee;
+      li {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+      }
+      .nav_active {
+        background: #fff;
+        color: orangered;
+      }
+    }
+    .shop_con_box {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      .shop_con_box_nav {
+        width: 100%;
+        height: 35px;
+        border-bottom: 1px solid #eee;
+        line-height: 35px;
+        color: #999;
+        .shop_con_box_nav_con {
+          width: auto;
+        }
+        span {
+          margin: 0 5px;
+        }
+      }
+      .shop_nav_active {
+        color: #000;
+      }
+      .shop_con_box_con {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        padding-bottom: 40px;
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    .footer_con {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      i {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: red;
+      }
+    }
+  }
+  .terror{
+    width:100%;height:100%;text-align:center;padding-top:50px;
+  }

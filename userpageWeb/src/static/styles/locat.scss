@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  .location_nav {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow: auto;
+    .curplace {
+      width: 100%;
+      height: 40px;
+      background: #fff;
+      line-height: 40px;
+      padding-left: 10px;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+    .error {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .serachRes {
+      width: 100%;
+      dl {
+        height: 70px;
+        border-bottom: 1px solid #999;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        padding: 0 10px;
+        font-size: 15px;
+        dt {
+          height: 35px;
+          line-height: 35px;
+          color: #666;
+        }
+        dd {
+          height: 35px;
+          line-height: 35px;
+          color: #999;
+        }
+      }
+    }
+  }
+  .add_place {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+  }
+  .serachbox {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    .serach_title {
+      font-size: 16px;
+      display: inline-block;
+      width: 60px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      b {
+        font-weight: bold;
+        padding-left: 3px;
+      }
+    }
+    p {
+      margin-left: 10px;
+      flex: 1;
+      height: 30px;
+      background: #f8f8f8;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      padding-left: 5px;
+      input {
+        margin-left: 5px;
+      }
+    }
+  }
+}

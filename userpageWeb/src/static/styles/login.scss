@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    .main {
+      width: 100%;
+      height: 100%;
+      flex: 1;
+      padding: 25px 25px;
+      .phoen_title {
+        font-size: 28px;
+      }
+      .phone {
+        width: 100%;
+        margin-top: 35px;
+        color: #8c8c8c;
+        input {
+          width: 100%;
+          border: 0;
+          border-bottom: 1px solid #e0e0e0;
+          margin-top: 15px;
+        }
+      }
+      button {
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+        height: 40px;
+        background: #fd4c26;
+        color: #fff;
+      }
+      .getCode {
+        margin-top: 43px;
+      }
+      .getCodes {
+        margin-top: 43px;
+      }
+      .griy {
+        background: #eeeeee;
+        color: #999;
+      }
+      .loginmask {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        .loginmask_con {
+          width: 300px;
+          background: #fff;
+          border-radius: 10px;
+          padding: 24px;
+          position: absolute;
+          top: 23%;
+          left: 50%;
+          margin-left: -150px;
+          .getCodess {
+            display: block;
+            width: 100%;
+            border-radius: 20px;
+            height: 40px;
+            background: #fd4c26;
+            color: #fff;
+            margin-top: 24px;
+          }
+          h2 {
+            font-size: 22px;
+          }
+          .tips {
+            margin: 14px 0;
+            font-size: 12px;
+            b {
+              font-size: 13px;
+            }
+            .phonen_val {
+              font-weight: 700px;
+              margin-left: 10px;
+            }
+          }
+          .countDown {
+            font-size: 16px;
+            color: #b3b3b3;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }

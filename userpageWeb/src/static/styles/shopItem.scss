@@ -1,0 +1,77 @@
+.shop_items {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    dt {
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    dd {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding-right: 10px;
+      .shop_item_xx {
+        width: 140px;
+        .title {
+          font-size: 18px;
+          margin-bottom: 2px;
+          width: 140px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .desc {
+          color: #999;
+          font-size: 14px;
+        }
+        .bq {
+          margin-top: 2px;
+          span {
+            padding: 1px 4px;
+            background: orangered;
+            color: #fff;
+            border-radius: 15px;
+            font-size: 12px;
+            margin-right: 4px;
+          }
+        }
+        .price {
+          margin-top: 18px;
+          b {
+            font-size: 18px;
+            color: orangered;
+            font-weight: bold;
+          }
+          span {
+            font-size: 14px;
+            color: #ccc;
+            text-decoration: line-through;
+            margin-left: 3px;
+          }
+        }
+      }
+      .gshopbtn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: orangered;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 60px;
+        flex-shrink: 0;
+        font-size: 19px;
+      }
+    }
+  }
+  .active{
+    border-color: #ccc;
+  }

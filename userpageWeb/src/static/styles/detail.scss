@@ -1,0 +1,134 @@
+.banner {
+    width: 100%;
+    height: 260px;
+    border-top: 1px solid #ccc;
+    .swipers {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hmain {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow: auto;
+  }
+  .detail_price {
+    height: 60px;
+    background: #fe4e28;
+    border-radius: 13px 13px 0px 0px;
+    padding-left: 14px;
+    padding-top: 3px;
+    color: #fff;
+    .detail_price_con {
+      b {
+        font-size: 30px;
+      }
+      span {
+        margin-left: 7px;
+        font-size: 14px;
+        text-decoration: line-through;
+        color: #fff;
+      }
+    }
+    .detail_counts {
+      font-size: 14px;
+    }
+  }
+  .detail_title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 15px;
+    .detail_title_text {
+      width: 270px;
+      height: 50px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .share {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .imgs {
+        width: 40px;
+        display: block;
+        height: 40px;
+      }
+      img {
+        width: 100%;
+      }
+      .text {
+        color: #fe4e28;
+        font-size: 12px;
+        margin-top: 3px;
+      }
+    }
+  }
+  .surplus {
+    color: #ccc;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .getShopDetail {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    border-top: 1px solid #ccc;
+    div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    div:nth-child(1) {
+      color: red;
+    }
+    .iconfont {
+      font-size: 24px;
+    }
+    span {
+      font-size: 13px;
+    }
+    .addCar {
+      flex: 1.5;
+      width: 100px;
+      background: #ffba2f;
+      color: #fff;
+    }
+    .countCar {
+      position: relative;
+      i {
+        position: absolute;
+        right: -5px;
+        top: -28px;
+        background: red;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 22px;
+        border-radius: 50%;
+      }
+    }
+    .byshop {
+      flex: 2.5;
+      width: 140px;
+      background: #fe3212;
+      color: #fff;
+    }
+  }
