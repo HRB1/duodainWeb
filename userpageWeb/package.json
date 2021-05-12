@@ -17,7 +17,7 @@
     "postcss-pxtorem": "^4.0.1",
     "sass-loader": "^7.2.0",
     "sass-resources-loader": "^2.0.1",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "vue-amap": "^0.5.10",
     "vue-awesome-swiper": "^3.1.3",
